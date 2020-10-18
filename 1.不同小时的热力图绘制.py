@@ -49,7 +49,7 @@ def plot_hours_pic(hours, data, img_savepath='..'):
     sns.kdeplot(
         data=data_h,
         x="起点经度_wgs84",
-        y='终点纬度_wgs84',
+        y='起点纬度_wgs84',
         fill=True,
         alpha=0.3,  # 透明度
         cmap="RdYlGn_r",  # 色带
